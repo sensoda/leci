@@ -1,0 +1,25 @@
+# A `gitignore` file specifies intentionally untracked files that `git`
+# should ignore.
+# See https://git-scm.com/docs/gitignore for more details.
+#
+
+# Ignore `idea` generated files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore `vs/vscode` generated files and directories
+.vs/
+.vscode/
+*.code-workspace
+
+# Ignore `windows` generated files and directories
+[Dd]esktop.ini
+*.lnk
+
+# Ignore `linux` generated files and directories
+*~
+
+# Ignore `macos` generated files and directories
+*.DS_*
